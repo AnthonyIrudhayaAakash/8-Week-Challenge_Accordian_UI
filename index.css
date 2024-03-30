@@ -1,0 +1,34 @@
+.body_container{
+    display: grid;
+    justify-content: center;
+}
+
+
+.header_container{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.accordion_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 15px;
+    
+}
+.heading{
+    margin: 0;
+}
+.accordion_body_container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease 0.5s;
+}
+.detail{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    font-weight: 600;
+}
